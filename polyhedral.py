@@ -80,7 +80,6 @@ total = np.concatenate(
 )
 clean_total = [tuple(list(x)) for x in total]
 
-iterations = 0
 unq = list(itertools.combinations((clean_total), 4))
 
 tetrahedron_list = []
